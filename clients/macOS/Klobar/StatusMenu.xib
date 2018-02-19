@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="StatusMenu" customModule="Klobar" customModuleProvider="target">
+            <connections>
+                <outlet property="notifyItem" destination="srq-hh-xNf" id="Kwe-Yy-HkQ"/>
+                <outlet property="notifySeperator" destination="aod-x7-TJI" id="Xf6-DM-RHs"/>
+                <outlet property="statusMenu" destination="1xH-v2-mT9" id="Xpk-gu-DDE"/>
+                <outlet property="statusPopup" destination="Hz6-mo-xeY" id="Rm8-fp-47n"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY" userLabel="statusPopup">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <point key="canvasLocation" x="236" y="169"/>
+        </customView>
+        <menu title="statusMenu" id="1xH-v2-mT9" userLabel="statusMenu">
+            <items>
+                <menuItem title="Notify me when the toilet is unoccupied again!" hidden="YES" enabled="NO" id="srq-hh-xNf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="didTapNotify:" target="-2" id="FMy-mF-Iv0"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" hidden="YES" enabled="YES" id="aod-x7-TJI"/>
+                <menuItem title="Quit" id="ywh-4C-90p">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="didTapQuitMenu:" target="-2" id="o3h-eX-9C9"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-176" y="170"/>
+        </menu>
+    </objects>
+</document>
