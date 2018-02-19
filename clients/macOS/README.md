@@ -15,7 +15,7 @@ A macOS client for Klobot living in the menu bar.
 ![Unoccupied.](4.png)
 
 ## Credits
-Created by Angelo Cammalleri.
+Created by [Angelo Cammalleri](https://github.com/ANGOmarcello).
 
 ## Attribution
 Some code used from [Coca](https://kindred.one/coca/) with friendly permission by [Kindred](https://kindred.one).
