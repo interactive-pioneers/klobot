@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C80872202AF2D300C31843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C80871202AF2D300C31843 /* AppDelegate.swift */; };
+		40C80874202AF2D300C31843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C80873202AF2D300C31843 /* ViewController.swift */; };
+		40C80876202AF2D300C31843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C80875202AF2D300C31843 /* Assets.xcassets */; };
+		40C80879202AF2D300C31843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C80877202AF2D300C31843 /* Main.storyboard */; };
+		40C80885202AF2D300C31843 /* KlobarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C80884202AF2D300C31843 /* KlobarTests.swift */; };
+		40C80890202AF2D300C31843 /* KlobarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8088F202AF2D300C31843 /* KlobarUITests.swift */; };
+		40C8089F202AF3F800C31843 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8089D202AF3F700C31843 /* StatusItem.swift */; };
+		40C808A0202AF3F800C31843 /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8089E202AF3F800C31843 /* StatusMenu.swift */; };
+		40C808A2202AF41500C31843 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C808A1202AF41500C31843 /* StatusMenu.xib */; };
+		40C808A4202AF4F400C31843 /* KloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C808A3202AF4F400C31843 /* KloController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C80881202AF2D300C31843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C80866202AF2D300C31843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C8086D202AF2D300C31843;
+			remoteInfo = Klobar;
+		};
+		40C8088C202AF2D300C31843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C80866202AF2D300C31843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C8086D202AF2D300C31843;
+			remoteInfo = Klobar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400983B5203AD1F200C54848 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		400983B6203AD4EB00C54848 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		40C8086E202AF2D300C31843 /* Klobar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klobar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C80871202AF2D300C31843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C80873202AF2D300C31843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C80875202AF2D300C31843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C80878202AF2D300C31843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C8087A202AF2D300C31843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C8087B202AF2D300C31843 /* Klobar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Klobar.entitlements; sourceTree = "<group>"; };
+		40C80880202AF2D300C31843 /* KlobarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlobarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C80884202AF2D300C31843 /* KlobarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlobarTests.swift; sourceTree = "<group>"; };
+		40C80886202AF2D300C31843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C8088B202AF2D300C31843 /* KlobarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlobarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C8088F202AF2D300C31843 /* KlobarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlobarUITests.swift; sourceTree = "<group>"; };
+		40C80891202AF2D300C31843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C8089D202AF3F700C31843 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
+		40C8089E202AF3F800C31843 /* StatusMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
+		40C808A1202AF41500C31843 /* StatusMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusMenu.xib; sourceTree = "<group>"; };
+		40C808A3202AF4F400C31843 /* KloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KloController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C8086B202AF2D300C31843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C8087D202AF2D300C31843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C80888202AF2D300C31843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C80865202AF2D300C31843 = {
+			isa = PBXGroup;
+			children = (
+				400983B5203AD1F200C54848 /* README.md */,
+				400983B6203AD4EB00C54848 /* LICENSE.md */,
+				40C80870202AF2D300C31843 /* Klobar */,
+				40C80883202AF2D300C31843 /* KlobarTests */,
+				40C8088E202AF2D300C31843 /* KlobarUITests */,
+				40C8086F202AF2D300C31843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C8086F202AF2D300C31843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C8086E202AF2D300C31843 /* Klobar.app */,
+				40C80880202AF2D300C31843 /* KlobarTests.xctest */,
+				40C8088B202AF2D300C31843 /* KlobarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C80870202AF2D300C31843 /* Klobar */ = {
+			isa = PBXGroup;
+			children = (
+				40C80871202AF2D300C31843 /* AppDelegate.swift */,
+				40C8089D202AF3F700C31843 /* StatusItem.swift */,
+				40C8089E202AF3F800C31843 /* StatusMenu.swift */,
+				40C808A3202AF4F400C31843 /* KloController.swift */,
+				40C80873202AF2D300C31843 /* ViewController.swift */,
+				40C808A1202AF41500C31843 /* StatusMenu.xib */,
+				40C80877202AF2D300C31843 /* Main.storyboard */,
+				40C80875202AF2D300C31843 /* Assets.xcassets */,
+				40C8087A202AF2D300C31843 /* Info.plist */,
+				40C8087B202AF2D300C31843 /* Klobar.entitlements */,
+			);
+			path = Klobar;
+			sourceTree = "<group>";
+		};
+		40C80883202AF2D300C31843 /* KlobarTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C80884202AF2D300C31843 /* KlobarTests.swift */,
+				40C80886202AF2D300C31843 /* Info.plist */,
+			);
+			path = KlobarTests;
+			sourceTree = "<group>";
+		};
+		40C8088E202AF2D300C31843 /* KlobarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C8088F202AF2D300C31843 /* KlobarUITests.swift */,
+				40C80891202AF2D300C31843 /* Info.plist */,
+			);
+			path = KlobarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C8086D202AF2D300C31843 /* Klobar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C80894202AF2D300C31843 /* Build configuration list for PBXNativeTarget "Klobar" */;
+			buildPhases = (
+				40C8086A202AF2D300C31843 /* Sources */,
+				40C8086B202AF2D300C31843 /* Frameworks */,
+				40C8086C202AF2D300C31843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klobar;
+			productName = Klobar;
+			productReference = 40C8086E202AF2D300C31843 /* Klobar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C8087F202AF2D300C31843 /* KlobarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C80897202AF2D300C31843 /* Build configuration list for PBXNativeTarget "KlobarTests" */;
+			buildPhases = (
+				40C8087C202AF2D300C31843 /* Sources */,
+				40C8087D202AF2D300C31843 /* Frameworks */,
+				40C8087E202AF2D300C31843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C80882202AF2D300C31843 /* PBXTargetDependency */,
+			);
+			name = KlobarTests;
+			productName = KlobarTests;
+			productReference = 40C80880202AF2D300C31843 /* KlobarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C8088A202AF2D300C31843 /* KlobarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C8089A202AF2D300C31843 /* Build configuration list for PBXNativeTarget "KlobarUITests" */;
+			buildPhases = (
+				40C80887202AF2D300C31843 /* Sources */,
+				40C80888202AF2D300C31843 /* Frameworks */,
+				40C80889202AF2D300C31843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C8088D202AF2D300C31843 /* PBXTargetDependency */,
+			);
+			name = KlobarUITests;
+			productName = KlobarUITests;
+			productReference = 40C8088B202AF2D300C31843 /* KlobarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C80866202AF2D300C31843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Interactive Pioneers GmbH";
+				TargetAttributes = {
+					40C8086D202AF2D300C31843 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					40C8087F202AF2D300C31843 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C8086D202AF2D300C31843;
+					};
+					40C8088A202AF2D300C31843 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C8086D202AF2D300C31843;
+					};
+				};
+			};
+			buildConfigurationList = 40C80869202AF2D300C31843 /* Build configuration list for PBXProject "Klobar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C80865202AF2D300C31843;
+			productRefGroup = 40C8086F202AF2D300C31843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C8086D202AF2D300C31843 /* Klobar */,
+				40C8087F202AF2D300C31843 /* KlobarTests */,
+				40C8088A202AF2D300C31843 /* KlobarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C8086C202AF2D300C31843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C80876202AF2D300C31843 /* Assets.xcassets in Resources */,
+				40C80879202AF2D300C31843 /* Main.storyboard in Resources */,
+				40C808A2202AF41500C31843 /* StatusMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C8087E202AF2D300C31843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C80889202AF2D300C31843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C8086A202AF2D300C31843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C808A0202AF3F800C31843 /* StatusMenu.swift in Sources */,
+				40C808A4202AF4F400C31843 /* KloController.swift in Sources */,
+				40C8089F202AF3F800C31843 /* StatusItem.swift in Sources */,
+				40C80874202AF2D300C31843 /* ViewController.swift in Sources */,
+				40C80872202AF2D300C31843 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C8087C202AF2D300C31843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C80885202AF2D300C31843 /* KlobarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C80887202AF2D300C31843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C80890202AF2D300C31843 /* KlobarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C80882202AF2D300C31843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C8086D202AF2D300C31843 /* Klobar */;
+			targetProxy = 40C80881202AF2D300C31843 /* PBXContainerItemProxy */;
+		};
+		40C8088D202AF2D300C31843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C8086D202AF2D300C31843 /* Klobar */;
+			targetProxy = 40C8088C202AF2D300C31843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C80877202AF2D300C31843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C80878202AF2D300C31843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C80892202AF2D300C31843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C80893202AF2D300C31843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		40C80895202AF2D300C31843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6AUNVT82L;
+				INFOPLIST_FILE = Klobar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.Klobar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		40C80896202AF2D300C31843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6AUNVT82L;
+				INFOPLIST_FILE = Klobar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.Klobar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		40C80898202AF2D300C31843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV4RMF773Y;
+				INFOPLIST_FILE = KlobarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.KlobarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klobar.app/Contents/MacOS/Klobar";
+			};
+			name = Debug;
+		};
+		40C80899202AF2D300C31843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV4RMF773Y;
+				INFOPLIST_FILE = KlobarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.KlobarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klobar.app/Contents/MacOS/Klobar";
+			};
+			name = Release;
+		};
+		40C8089B202AF2D300C31843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV4RMF773Y;
+				INFOPLIST_FILE = KlobarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.KlobarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Klobar;
+			};
+			name = Debug;
+		};
+		40C8089C202AF2D300C31843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV4RMF773Y;
+				INFOPLIST_FILE = KlobarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.KlobarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Klobar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C80869202AF2D300C31843 /* Build configuration list for PBXProject "Klobar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C80892202AF2D300C31843 /* Debug */,
+				40C80893202AF2D300C31843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C80894202AF2D300C31843 /* Build configuration list for PBXNativeTarget "Klobar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C80895202AF2D300C31843 /* Debug */,
+				40C80896202AF2D300C31843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C80897202AF2D300C31843 /* Build configuration list for PBXNativeTarget "KlobarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C80898202AF2D300C31843 /* Debug */,
+				40C80899202AF2D300C31843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C8089A202AF2D300C31843 /* Build configuration list for PBXNativeTarget "KlobarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C8089B202AF2D300C31843 /* Debug */,
+				40C8089C202AF2D300C31843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C80866202AF2D300C31843 /* Project object */;
+}
