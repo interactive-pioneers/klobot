@@ -15,12 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Klobot
 email: klobot@interactive-pioneers.de
-description: >- # this means to ignore newlines until "baseurl:"
-  Der Klobot löst ein lästiges Problem im Büro: Man muss dringend sein Geschäft erledigen, macht sich auf den Weg und muss feststellen, dass die Toilette besetzt ist. Erst nach mehreren Versuchen erwischt man einen freien Slot.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: i_pioneers
 github_username:  interactive-pioneers
+author: Interactive Pioneers GmbH
 
 # Build settings
 markdown: kramdown
