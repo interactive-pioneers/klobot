@@ -8,8 +8,7 @@ permalink: /about/
 
 Der Klobot löst ein lästiges Problem im Büro: Man muss dringend sein Geschäft erledigen, macht sich auf den Weg und muss feststellen, dass die Toilette besetzt ist. Erst nach mehreren Versuchen erwischt man einen freien Slot.
 
-![notify me]({{ "/assets/klobot_mac_notifyme.jpg" | absolute_url }})
-
+![notify me]({{ "/assets/klobot_mac_notifyme.jpg" | absolute_url }})  
 ![notification]({{ "/assets/klobot_mac_notification.jpg" | absolute_url }})
 
 Ein Raspberry Zero für 10,- Euro und ein Lichtsensor für 5,- dienen als Hardware. Darauf wird der Klobot installiert, der den Frei/Besetzt Status im internen Netzwerk über eine API bereitstellt.
